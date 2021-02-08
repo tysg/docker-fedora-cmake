@@ -1,2 +1,2 @@
 FROM fedora:33 
-RUN sudo dnf install cmake make gcc-c++
+RUN sudo dnf -y install cmake make gcc-c++
